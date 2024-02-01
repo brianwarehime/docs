@@ -50,7 +50,8 @@
         "introduction",
         "quickstart"
       ]
-    },{
+    },
+    {
     "group":"Essentials",
     "pages": [
       "code"
