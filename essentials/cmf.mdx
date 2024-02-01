@@ -12,6 +12,12 @@ The Collection Management Framework (CMF) is a tool to understand what data sour
 
 When developing your Intelligence Requirements (IRs), it's helpful to know what data sources would enable you to answer the key intelligence questions in the IRs, which is where the CMF comes into play. With your CMF, you can quickly and easily understand if you posess the right data in your environment to confidently answer the questions in the IRs.
 
+### Use with Threat Hunts
+
+Similarly, when conducting your threat hunts, it's important to know what data sources you have at your disposal, since you'll be able to quickly tell if you'll be able to detect or find the information you are after. If there is a new detection rule released for an RCE vulnerability and it requires PCAP data, you can quickly tell if you currently have PCAP collection, and if not, you'll know you probably won't be able to succesfully hunt for this activity.
+
+As with IRs, measuring your sources against their use will help you prioritize what sources get matured. Using both IRs and hunts as input will help you measure what is the most critical sources.
+
 ### Maturity Model
 
 Alongside the CMF, lives the Maturity Model, which is a tool to measure the stage in which you are utilizing your CMF. This ranges from immature phases and actions such as one-off queries through the CLI or ad-hoc queries in the UI, to more advanced maturity levels where there are automated processes in place to automatically utilize the dataset.
