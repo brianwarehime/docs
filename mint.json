@@ -48,9 +48,13 @@
       "group": "Get Started",
       "pages": [
         "introduction",
-        "quickstart",
-        "test"
+        "quickstart"
       ]
+    },{
+    "group":"Essentials",
+    "pages": [
+      "code"
+    ]
     }
   ],
   "footerSocials": {
