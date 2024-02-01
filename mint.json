@@ -55,12 +55,12 @@
     {
       "group": "Essentials",
       "pages": [
-        "essentials/markdown",
-        "essentials/code",
-        "essentials/images",
-        "essentials/settings",
-        "essentials/navigation",
-        "essentials/reusable-snippets"
+        "essentials/rfis",
+        "essentials/irs",
+        "essentials/stakeholders",
+        "essentials/reports",
+        "essentials/cmf",
+        "essentials/threathunts",
       ]
     },
     {
