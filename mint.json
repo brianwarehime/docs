@@ -18,7 +18,7 @@
   "topbarLinks": [
     {
       "name": "Support",
-      "url": "mailto:hello@threatnote.io"
+      "url": "mailto:hi@mintlify.com"
     }
   ],
   "topbarCtaButton": {
@@ -48,29 +48,8 @@
       "group": "Get Started",
       "pages": [
         "introduction",
-        "quickstart"
-      ]
-    },
-    {
-      "group": "Essentials",
-      "pages": [
-        "essentials/irs",
-        "essentials/rfis",
-        "essentials/threathunts",
-        "essentials/cmf",
-        "essentials/signatures",
-        "essentials/postmortems",
-        "essentials/threatgroups",
-        "essentials/customers",
-        "essentials/reports",
-        "essentials/iocs",
-        "essentials/integrations"
-      ]
-    },
-    {
-      "group": "API Documentation",
-      "pages": [
-        "api-reference/introduction"
+        "quickstart",
+        "test"
       ]
     }
   ],
