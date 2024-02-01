@@ -4,12 +4,34 @@ description: 'Documenting your threat hunt findings and discoveries'
 icon: 'map'
 ---
 
-Threat Hunts are one of the staple concepts of threatnote.io and are used to document your findings as you conduct threat hunts based on your Intelligence Requirements and RFIs. 
+Threat Hunts are one of the core concepts of threatnote.io and are used to document your findings as you conduct threat hunts based on your Intelligence Requirements and RFIs. 
 
 ## Threat Hunts
 
+When starting with a threat hunt, you'll fill out a form that includes the summary, which can consist of the hunt hypothesis (why are you conducting this hunt and expect to find?), objectives of the hunt, scope, and any other pertinent details about the hunt. 
+
+Additionally, you'll associate any threat groups that this hunt will be looking into. This allows correlations to be made between your threat hunting coverage against your tracked threat groups.
+
+Lastly, you'll select the applicable taskings for the threat hunt, which can either be RFI's or IR's. This again can allow correlations to be made for the coverage and hunting activity per IR and RFI.
+
 ## Kanban Board
 
+The Kanban board functions like a normal kanban board and can be used to categorize and plan your threat hunts. There are three sections, Backlog, Doing and Done.
+
+`Backlog` contains hunts that you would like to conduct, but not active at the moment. `Doing` contains hunts that are currently in progress, which can either be in the phase of `Collection`, `Analysis`, and `Production`. 
+
+`Collection` is the first phase of the threat hunt and consists of collecting data that relates to your threat hunt. `Analysis` is when you have all your data and are now analyzing it for answering your intelligence questions. Lastly, `Production` is when you are ready to produce reporting related to the threat hunt, answering the questions in the RFI or IR.
+
+Lastly, `Done` is for completed threat hunts. You can move the hunt tickets between each category and change the details by clicking on each ticket.
+
 ## Signatures
+
+The Signatures section includes detection signatures for a variety of types, including Snort, Sigma, Splunk, and YARA. Associate these signatures with your threat hunt activity to associate threat activity with answering your intelligence questions. 
+
+## Postmortems
+
+Postmortems are automatically created when the threat hunt is marked as completed. Use the postmortems to document the hunt hypothesis, key findings, gaps identified, follow-up actions, data sources used, and the taskings associated with the threat hunt. 
+
+These postmortems should be reviewed with your teams to improve future hunts based on the findings from the hunt. 
 
 ## Postmortems
