@@ -4,85 +4,55 @@ description: 'Your Collection Management Framework (CMF) manages your data sourc
 icon: 'gear'
 ---
 
-## Titles
+## Collection Management Framework
 
-Best used for section headers.
+The Collection Management Framework (CMF) is a tool to understand what data sources you currently use in your threat intelligence program, and the value you gain from those sources. 
 
-```md
-## Titles
-```
+### Use with Intelligence Requirements
 
-### Subtitles
+When developing your Intelligence Requirements (IRs), it's helpful to know what data sources would enable you to answer the key intelligence questions in the IRs, which is where the CMF comes into play. With your CMF, you can quickly and easily understand if you posess the right data in your environment to confidently answer the questions in the IRs.
 
-Best use to subsection headers.
+### Maturity Model
 
-```md
-### Subtitles
-```
+Alongside the CMF, lives the Maturity Model, which is a tool to measure the stage in which you are utilizing your CMF. This ranges from immature phases and actions such as one-off queries through the CLI or ad-hoc queries in the UI, to more advanced maturity levels where there are automated processes in place to automatically utilize the dataset.
 
 <Tip>
 
-Each **title** and **subtitle** creates an anchor and also shows up on the table of contents on the right.
+Look at what sources are utilized most in your IRs which will help prioritize leveling up the sources that aren't as mature as other sources not typically used
 
 </Tip>
 
-## Text Formatting
+### Maturity Model Levels
 
-We support most markdown formatting. Simply add `**`, `_`, or `~` around text to format it.
+These levels are taken from [this blog](https://medium.com/@brianwarehime_79186/collection-maturity-model-framework-2d2b4631e3fc) which lists the various areas of maturity for each data sources, but more succintly, the following guidelines are used when defining sources, however, how you define these are up to you.
 
-| Style         | How to write it   | Result          |
-| ------------- | ----------------- | --------------- |
-| Bold          | `**bold**`        | **bold**        |
-| Italic        | `_italic_`        | _italic_        |
-| Strikethrough | `~strikethrough~` | ~strikethrough~ |
+#### Initial
 
-You can combine these. For example, write `**_bold and italic_**` to get **_bold and italic_** text.
+We can query the dataset ad-hoc through the GUI or CLI. Useful for data enrichment
 
-You need to use HTML to write superscript and subscript text. That is, add `<sup>` or `<sub>` around your text.
+#### Repeatable
 
-| Text Size   | How to write it          | Result                 |
-| ----------- | ------------------------ | ---------------------- |
-| Superscript | `<sup>superscript</sup>` | <sup>superscript</sup> |
-| Subscript   | `<sub>subscript</sub>`   | <sub>subscript</sub>   |
+The data source is readily available to use through internal toolset
 
-## Linking to Pages
+#### Defined
 
-You can add a link by wrapping text in `[]()`. You would write `[link to google](https://google.com)` to [link to google](https://google.com).
+There is clear documentation on how to use the data source as well as SOP's in place for using the data
 
-Links to pages in your docs need to be root-relative. Basically, you should include the entire folder path. For example, `[link to text](/writing-content/text)` links to the page "Text" in our components section.
+#### Managed
 
-Relative links like `[link to text](../text)` will open slower because we cannot optimize them as easily.
+Metrics inform the quality of data we are getting from the collection source
 
-## Blockquotes
+#### Optimizing
 
-### Singleline
+ We are able to innovate and enable new methods of pivoting and searching with the collection source
 
-To create a blockquote, add a `>` in front of a paragraph.
+### Collection Sources
 
-> Dorothy followed her through many of the beautiful rooms in her castle.
+Under the `Collection` menubar item is `Collection Sources`, in this tab you'll find all the data sources contained in your CMF, as well as two helpeful dashboards. One is the "Top Sources Utilized in Intelligence Requirements", and the other is "Top Sources Utilized in Threat Hunts". Each of these graphs show you what sources are being used in their respective areas.
 
-```md
-> Dorothy followed her through many of the beautiful rooms in her castle.
-```
+![](https://i.imgur.com/fhJnlcL.png)
 
-### Multiline
+Using these graphs you can quickly understand what sources are being used the most, which typically would inform what sources you should prioritize maturing. 
 
-> Dorothy followed her through many of the beautiful rooms in her castle.
->
-> The Witch bade her clean the pots and kettles and sweep the floor and keep the fire fed with wood.
 
-```md
-> Dorothy followed her through many of the beautiful rooms in her castle.
->
-> The Witch bade her clean the pots and kettles and sweep the floor and keep the fire fed with wood.
-```
 
-### LaTeX
-
-Mintlify supports [LaTeX](https://www.latex-project.org) through the Latex component.
-
-<Latex>8 x (vk x H1 - H2) = (0,1)</Latex>
-
-```md
-<Latex>8 x (vk x H1 - H2) = (0,1)</Latex>
-```
