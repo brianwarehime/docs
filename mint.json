@@ -60,16 +60,6 @@
       ]
     },
     {
-      "pages": [
-        "essentials/rfis",
-        "essentials/irs",
-        "essentials/stakeholders",
-        "essentials/reports",
-        "essentials/cmf",
-        "essentials/threathunts"
-      ]
-    },
-    {
       "group": "API Documentation",
       "pages": [
         "api-reference/introduction"
