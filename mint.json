@@ -54,6 +54,18 @@
         "essentials/stakeholders",
         "essentials/reports",
         "essentials/cmf",
+        "essentials/threathunts",
+        "essentials/iocs",
+        "essentials/integrations"
+      ]
+    },
+    {
+      "pages": [
+        "essentials/rfis",
+        "essentials/irs",
+        "essentials/stakeholders",
+        "essentials/reports",
+        "essentials/cmf",
         "essentials/threathunts"
       ]
     },
