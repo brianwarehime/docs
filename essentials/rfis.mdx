@@ -1,37 +1,34 @@
 ---
 title: 'Request For Information (RFI)'
-description: 'Display inline code and code blocks'
+description: 'Manage stakeholder's immediate requests'
 icon: 'inbox'
 ---
 
-## Basic
+## Overview
 
-### Inline Code
+RFI's are used in a similar fashion as Intelligence Requirements, in that they tell you what questions your customers have. 
 
-To denote a `word` or `phrase` as code, enclose it in backticks (`).
+These are more short-term, immediate requests and are commonly used to satisfy questions about the latest threats, vulnerabilities, or events that may have an impact on your organization.
 
-```
-To denote a `word` or `phrase` as code, enclose it in backticks (`).
-```
+### As a Stakeholder
 
-### Code Block
+As a stakeholder using threatnote.io, you can submit RFIs from the dashboard, or from the RFI page. Both of these methods allow you to submit an RFI to the CTI team for a response.
 
-Use [fenced code blocks](https://www.markdownguide.org/extended-syntax/#fenced-code-blocks) by enclosing code in three backticks and follow the leading ticks with the programming language of your snippet to get syntax highlighting. Optionally, you can also write the name of your code after the programming language.
+Be sure to include specific questions in your RFI so that the CTI team can thorougly answer the RFI and satisfies all gaps. 
 
-```java HelloWorld.java
-class HelloWorld {
-    public static void main(String[] args) {
-        System.out.println("Hello, World!");
-    }
-}
-```
+As far as when to use an IR and when to use an RFI, it again is useful for shorter-term requirements as it pertains to particular events, rather than longstanding requirements on items your team cares about.
 
-````md
-```java HelloWorld.java
-class HelloWorld {
-    public static void main(String[] args) {
-        System.out.println("Hello, World!");
-    }
-}
-```
-````
+### As a member of the CTI team
+
+As a CTI team, you'll want to use the RFI page as well as the dashboard to understand what RFIs have been submitted by your customers. 
+
+What's the most helpful to you as a CTI team is the priority of these RFIs, which can be inputted by the requester as it relates to their own needs. Use these priorities to compare it against other RFIs in your queue to identify what order they should be answered in. 
+
+In the RFI, you'll see the individual EEI's or Essential Elements of Information, which are the specific questions your customer has for that RFI. In addition, you'll notice that the RFI has a section for collection requirements. This section is useful to understand what data was used or is required to answer these questions. 
+
+It's helpful to document your sources used, so you can understand your Return on Investment (ROI) for each tool you have in your environment. In addition, it will be able to tell you if you have the required data to answer the RFI. For instance, if a customer is asking for specific network traffic to a particular host, but you don't have full PCAP, you may not be able to answer this question. 
+
+In the RFI page, you will find the `Related Reports` and `Related Hunts` that are associated with this RFI. In most cases, you'll either conduct a threat hunt to answer the questions, as well as writing a report for customers in response to the RFI. These are displayed for easier referencing as you work with your customers on their requests. 
+
+Use notes along the way to document your findings as well as a response to the RFI if a report is not required. Customers can then view the RFI and subsequent notes to find their answers.
+
