@@ -29,11 +29,6 @@
   ],
   "anchors": [
     {
-      "name": "Documentation",
-      "icon": "book-open-cover",
-      "url": "https://app.threatnote.io/docs"
-    },
-    {
       "name": "Blog",
       "icon": "newspaper",
       "url": "https://threatnote.io/blog"
