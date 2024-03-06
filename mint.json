@@ -42,6 +42,13 @@
       ]
     },
     {
+      "group": "Legal",
+      "pages": [
+        "privacy",
+        "tos"
+      ]
+    },
+    {
       "group": "Essentials",
       "pages": [
         "essentials/rfis",
